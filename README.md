@@ -13,7 +13,9 @@ The notebooks are based on examples from the O'Reilly book [Hands-on Machine Lea
 5. [MatPlotLib](/00_numpy_pandas_matplotlib/matplotlib.ipynb)
 
 ## Contents
-1. [Model based and Instance based Learning](/01_model_and_instance_based_learning)  
-2. [Regression](/02_regression/model.ipynb) 
-3. [Classification](/03_classification/model.ipynb) 
-4. [Linear Models](/04_linear_models/model.ipynb) 
+
+1. [Model based and Instance based Learning](/01_model_and_instance_based_learning)
+2. [Regression](/02_regression/model.ipynb)
+3. [Classification](/03_classification/model.ipynb)
+4. [Linear Models](/04_linear_models/model.ipynb)
+5. [Decision Trees and Random Forest](/05_decision_trees_and_random_forest/model.ipynb)
