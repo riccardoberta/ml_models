@@ -19,4 +19,4 @@ The notebooks are based on examples from the O'Reilly book [Hands-on Machine Lea
 3. [Classification](/03_classification/model.ipynb)
 4. [Linear Models](/04_linear_models/model.ipynb)
 5. [Decision Trees](/05_decision_trees/model.ipynb)
-6. [Random Forest](/06_random_forest/model.ipynb)
+6. [Ensamble Learning](/06_ensamble_learning/model.ipynb)
