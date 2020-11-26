@@ -15,8 +15,9 @@ The notebooks are based on examples from the O'Reilly book [Hands-on Machine Lea
 ## Contents
 
 1. [Model based and Instance based Learning](/01_model_and_instance_based_learning)
-2. [Regression](/02_regression/model.ipynb)
-3. [Classification](/03_classification/model.ipynb)
-4. [Linear Models](/04_linear_models/model.ipynb)
-5. [Decision Trees](/05_decision_trees/model.ipynb)
-6. [Ensamble Learning](/06_ensamble_learning/model.ipynb)
+2. [Regression](/02_regression/regression.ipynb)
+3. [Classification](/03_classification/classification.ipynb)
+4. [Linear Models](/04_linear_models/linear_models.ipynb)
+5. [Decision Trees](/05_decision_trees/decision_trees.ipynb)
+6. [Ensamble Learning](/06_ensamble_learning/ensamble_learning.ipynb)
+7. [Dimensionality Reduction]()/07_dimensionality_reduction/dimensionality_reduction.ipynb)
