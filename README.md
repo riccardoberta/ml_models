@@ -20,4 +20,7 @@ The notebooks are based on examples from the O'Reilly book [Hands-on Machine Lea
 4. [Linear Models](/04_linear_models/linear_models.ipynb)
 5. [Decision Trees](/05_decision_trees/decision_trees.ipynb)
 6. [Ensamble Learning](/06_ensamble_learning/ensamble_learning.ipynb)
-7. [Dimensionality Reduction]()/07_dimensionality_reduction/dimensionality_reduction.ipynb)
+7. [Support Vector Machines](/07_support_vector_machines/support_vector_machines.ipynb)
+8. [Dimensionality Reduction](/08_dimensionality_reduction/dimensionality_reduction.ipynb)
+9. [Artificial Neural Networks](/09_artificial_neural_networks/artificial_neural_networks.ipynb)
+10. [Keras](/10_keras/keras.ipynb)
