@@ -2,7 +2,12 @@
 
 Machine Learning using Scikit-Learn, Keras and TensorFlow.
 
-The notebooks are based on examples from the O'Reilly book [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+The notebooks are based on contents and examples from the following sources: 
+
+1. [Hands-on Machine Learning with Scikit-Learn, Keras and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
+2. [Papers with Code](https://paperswithcode.com/sota)
+3. [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/)
+4. [Neural Networks for Machine Learning](https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9) 
 
 ## Prerequisites
 
@@ -24,3 +29,5 @@ The notebooks are based on examples from the O'Reilly book [Hands-on Machine Lea
 8. [Dimensionality Reduction](/08_dimensionality_reduction/dimensionality_reduction.ipynb)
 9. [Artificial Neural Networks](/09_artificial_neural_networks/artificial_neural_networks.ipynb)
 10. [Keras](/10_keras/keras.ipynb)
+11. [Deep Neural Networkd](/10_deep_neural_networks/deep_neural_networks.ipynb)
+
