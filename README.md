@@ -10,15 +10,18 @@ The notebooks are based on contents and examples from the following sources:
 4. [Data Science from Scratch](https://www.oreilly.com/library/view/data-science-from/9781492041122/)
 5. [Neural Networks for Machine Learning](https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9) 
 
-## Prerequisites
+## Math Prerequisites
 
-1. [Linear Algebra](/00_linear_algebra_calculus/linear_algebra.ipynb)
-2. [Calculus](/00_linear_algebra_calculus/calculus.ipynb)
-3. [Statistics and Probability](/00_linear_algebra_calculus/statistics.ipynb)
-4. [Python](/00_numpy_pandas_matplotlib/python.ipynb)
-5. [NumPy](/00_numpy_pandas_matplotlib/numpy.ipynb)
-6. [Pandas](/00_numpy_pandas_matplotlib/pandas.ipynb)
-7. [MatPlotLib](/00_numpy_pandas_matplotlib/matplotlib.ipynb)
+1. [Linear Algebra](/00_math_prerequisites/linear_algebra.ipynb)
+2. [Calculus](/00_math_prerequisites/calculus.ipynb)
+3. [Statistics and Probability](/00_math_prerequisites/statistics.ipynb)
+
+## Programming Prerequisites
+
+1. [Python](/00_tools_prerequisites/python.ipynb)
+2. [NumPy](/00_tools_prerequisites/numpy.ipynb)
+3. [Pandas](/00_tools_prerequisites/pandas.ipynb)
+4. [MatPlotLib](/00_tools_prerequisites/matplotlib.ipynb)
 
 ## Contents
 
@@ -31,7 +34,8 @@ The notebooks are based on contents and examples from the following sources:
 7. [Ensemble Learning](/07_ensemble_learning/ensemble_learning.ipynb)
 8. [Support Vector Machines](/08_support_vector_machines/support_vector_machines.ipynb)
 9. [Dimensionality Reduction](/09_dimensionality_reduction/dimensionality_reduction.ipynb)
-10. [Artificial Neural Networks](/10_artificial_neural_networks/artificial_neural_networks.ipynb)
-11. [Keras](/11_keras/keras.ipynb)
-12. [Deep Neural Networks](/12_deep_neural_networks/deep_neural_networks.ipynb)
+10. [Unsupervised Learning Techniques](/10_unsupervised_learning_techniques/unsupervised_learning.ipynb)
+11. [Artificial Neural Networks](/11_artificial_neural_networks/artificial_neural_networks.ipynb)
+12. [Keras](/12_keras/keras.ipynb)
+13. [Deep Neural Networks](/13_deep_neural_networks/deep_neural_networks.ipynb)
 
