@@ -25,7 +25,7 @@ The notebooks are based on contents and examples from the following sources:
 
 ## Contents
 
-1. [Introduction](/01_introduction/introduction.ipynb)<a href="https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/01_introduction/introduction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Google Colab"/></a>
+1. [Introduction](/01_introduction/introduction.ipynb)   <a href="https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/01_introduction/introduction.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Google Colab"/></a>
 2. [Regression](/02_regression/regression.ipynb)<a href="https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/02_regression/regression.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Google Colab"/></a>
 3. [Classification](/03_classification/classification.ipynb)<a href="https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/03_classification/classification.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Google Colab"/></a>
 4. [Gradient Descent](/04_gradient_descent/gradient_descent.ipynb)<a href="https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/04_gradient_descent/gradient_descent.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Google Colab"/></a>
