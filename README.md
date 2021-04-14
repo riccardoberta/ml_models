@@ -28,7 +28,7 @@ The notebooks are based on contents and examples from the following sources:
 1. [Introduction](/01_introduction)
 2. [Regression](/02_regression/regression.ipynb)
 3. [Classification](/03_classification/classification.ipynb)
-4. [Gradient Descent](/02_gradient_descent/gradient_descent.ipynb)
+4. [Gradient Descent](/04_gradient_descent/gradient_descent.ipynb)
 5. [Linear Models](/05_linear_models/linear_models.ipynb)
 6. [Decision Trees](/06_decision_trees/decision_trees.ipynb)
 7. [Ensemble Learning](/07_ensemble_learning/ensemble_learning.ipynb)
@@ -39,3 +39,4 @@ The notebooks are based on contents and examples from the following sources:
 12. [Keras](/12_keras/keras.ipynb)
 13. [Deep Neural Networks](/13_deep_neural_networks/deep_neural_networks.ipynb)
 
+<a href="https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/09_dimensionality_reduction/dimensionality_reduction.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Google Colab"/></a>
