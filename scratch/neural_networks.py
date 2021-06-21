@@ -200,6 +200,30 @@ class Linear(Layer):
     def grads(self) -> Iterable[Tensor]:
         return [self.w_grad, self.b_grad]
     
+class Dropout(Layer):
+    def __init__(self, p: float) -> None:
+        self.p = p
+        self.train = True
+
+    def forward(self, input: Tensor) -> Tensor:
+        if self.train:
+            # Create a mask of 0s and 1s shaped like the input
+            # using the specified probability.
+            self.mask = tensor_apply(
+                lambda _: 0 if random.random() < self.p else 1,
+                input)
+            # Multiply by the mask to dropout inputs.
+            return tensor_combine(operator.mul, input, self.mask)
+        else:
+            # During evaluation just scale down the outputs uniformly.
+            return tensor_apply(lambda x: x * (1 - self.p), input)
+
+    def backward(self, gradient: Tensor) -> Tensor:
+        if self.train:
+            # Only propagate the gradients where mask == 1
+            return tensor_combine(operator.mul, gradient, self.mask)
+        else:
+            raise RuntimeError("don't call backward when not in train mode")
     
 class Sequential(Layer):
     """
@@ -261,7 +285,29 @@ class GradientDescent(Optimizer):
 
     def step(self, layer: Layer) -> None:
         for param, grad in zip(layer.params(), layer.grads()):
-            param[:] = tensor_combine(lambda param, grad: param - grad * self.lr, param, grad)    
+            param[:] = tensor_combine(lambda param, grad: param - grad * self.lr, param, grad) 
+            
+class Momentum(Optimizer):
+    def __init__(self,
+                 learning_rate: float,
+                 momentum: float = 0.9) -> None:
+        self.lr = learning_rate
+        self.mo = momentum
+        self.updates: List[Tensor] = []  # running average
+
+    def step(self, layer: Layer) -> None:
+        # If we have no previous updates, start with all zeros.
+        if not self.updates:
+            self.updates = [zeros_like(grad) for grad in layer.grads()]
+
+        for update, param, grad in zip(self.updates, layer.params(), layer.grads()):
+            # Apply momentum
+            update[:] = tensor_combine(lambda u, g: self.mo * u + (1 - self.mo) * g,
+                                       update, grad)
+            # Then take a gradient step
+            param[:] = tensor_combine(lambda p, u: p - self.lr * u,
+                                      param, update)
+                       
 def softmax(tensor: Tensor) -> Tensor:
     """Softmax along the last dimension"""
     if is_1d(tensor):
