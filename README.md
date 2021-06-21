@@ -14,7 +14,7 @@ The notebooks are based on contents and examples from the following sources:
 
 1. [Linear Algebra](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master//00_math_prerequisites/linear_algebra.ipynb)
 2. [Calculus](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/00_math_prerequisites/calculus.ipynb)
-3. [Statistics and Probability](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/00_math_prerequisites/statistics.ipynb)
+3. [Statistics and Probability](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/00_math_prerequisites/statistics_and_probability.ipynb)
 
 ## Programming Prerequisites
 
@@ -28,13 +28,12 @@ The notebooks are based on contents and examples from the following sources:
 1. [Introduction](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/01_introduction/introduction.ipynb)
 2. [Regression](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/02_regression/regression.ipynb)
 3. [Classification](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/03_classification/classification.ipynb)
-4. [Gradient Descent](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/04_gradient_descent/gradient_descent.ipynb)
-5. [Linear Models](https://cola/05_linear_models/linear_models.ipynb/09_dimensionality_reduction/dimensionality_reduction.ipynb)
-6. [Decision Trees](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/06_decision_trees/decision_trees.ipynb)
-7. [Ensemble Learning](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/07_ensemble_learning/ensemble_learning.ipynbb)
-8. [Support Vector Machines](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/08_support_vector_machines/support_vector_machines.ipynb)
-9. [Dimensionality Reduction](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/09_dimensionality_reduction/dimensionality_reduction.ipynb)
-10. [Unsupervised Learning Techniques](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/10_unsupervised_learning_techniques/unsupervised_learning.ipynb)
-11. [Artificial Neural Networks](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/11_artificial_neural_networks/artificial_neural_networks.ipynb)
-12. [Keras](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/12_keras/keras.ipynb)
-13. [Deep Neural Networks](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/13_deep_neural_networks/deep_neural_networks.ipynb)
+4. [Linear Models](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/04_linear_models/linear_modesl.ipynb)
+5. [Decision Trees](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/05_decision_trees/decision_trees.ipynb)
+6. [Ensemble Learning](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/06_ensemble_learning/ensemble_learning.ipynbb)
+7. [Support Vector Machines](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/07_support_vector_machines/support_vector_machines.ipynb)
+8. [Dimensionality Reduction](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/08_dimensionality_reduction/dimensionality_reduction.ipynb)
+9. [Unsupervised Learning Techniques](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/09_unsupervised_learning_techniques/unsupervised_learning.ipynb)
+10. [Artificial Neural Networks](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/10_artificial_neural_networks/artificial_neural_networks.ipynb)
+11. [Keras](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/11_keras/keras.ipynb)
+12. [Deep Neural Networks](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/12_deep_neural_networks/deep_neural_networks.ipynb)
