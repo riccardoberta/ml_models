@@ -32,7 +32,7 @@ def scalar_multiply(c: float, v: Vector) -> Vector:
 
 def vector_mean(vectors: List[Vector]) -> Vector:
     """Computes the element-wise average"""
-    print(len(vectors))
+    n = len(vectors)
     return scalar_multiply(1/n, vector_sum(vectors))
 
 def dot(v: Vector, w: Vector) -> float:

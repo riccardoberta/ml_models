@@ -33,7 +33,7 @@ The notebooks are based on contents and examples from the following sources:
 6. [Ensemble Learning](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/06_ensemble_learning/ensemble_learning.ipynbb)
 7. [Support Vector Machines](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/07_support_vector_machines/support_vector_machines.ipynb)
 8. [Dimensionality Reduction](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/08_dimensionality_reduction/dimensionality_reduction.ipynb)
-9. [Unsupervised Learning Techniques](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/09_unsupervised_learning_techniques/unsupervised_learning.ipynb)
+9. [Unsupervised Learning](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/09_unsupervised_learning/unsupervised_learning.ipynb)
 10. [Artificial Neural Networks](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/10_artificial_neural_networks/artificial_neural_networks.ipynb)
 11. [Keras](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/11_keras/keras.ipynb)
 12. [Deep Neural Networks](https://colab.research.google.com/github/riccardoberta/machine-learning/blob/master/12_deep_neural_networks/deep_neural_networks.ipynb)
